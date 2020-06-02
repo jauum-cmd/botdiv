@@ -148,6 +148,7 @@ client.on("guildCreate", async guild => {
 
 client.on("ready", () => {
       let logs = client.channels.get('635212425293070376')
+      if(!logs) return console.log("Canal de log's não definido");
       logs.send(`Bot \`${client.user.username}\` foi iniciado, com ${client.users.size} usuários, em ${client.guilds.size} servidores.`);
 });
 
