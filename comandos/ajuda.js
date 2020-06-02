@@ -48,7 +48,7 @@ exports.run = (client, message, args) => {
         let ModeraçãoFilter = (reaction, user, ) => reaction.emoji.id === '614759344072032268' && user.id === message.author.id;
         let NsfwFilter = (reaction, user, ) => reaction.emoji.id === '614653146689437697' && user.id === message.author.id;
         let SobreFilter = (reaction, user, ) => reaction.emoji.id === '614407735043424256' && user.id === message.author.id;
-        let VoltarFilter = (reaction, user, ) => reaction.emoji.id === '614540655888171038' && user.id === message.author.id;
+        let VoltarFilter = (reaction, user, ) => reaction.emoji.id === '717461934072660080' && user.id === message.author.id;
         let Anúncio = c.createReactionCollector(AnúncioFilter, { time: 80000 });
         let Utilidade = c.createReactionCollector(UtilidadeFilter, { time: 80000 });
         let Status = c.createReactionCollector(StatusFilter, { time: 80000 });
