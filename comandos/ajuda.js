@@ -18,7 +18,7 @@ exports.run = (client, message, args) => {
 <a:staffcdm:614759344072032268> Comandos de **Moderação**
 <:18cdm:614653146689437697> Comandos de **Nsfw**
 <:chatcdm:614407735043424256> **Sobre mim**
-<a:voltar2cdm:614540655888171038> **Voltar** ao painel
+<a:voltaruog:717461934072660080> **Voltar** ao painel
 
 :link: **[Clique aqui para me Adicionar](https://discordapp.com/oauth2/authorize?client_id=${client.user.id}&permissions=2146958847&scope=bot)**`)
         .setColor('#ff47ec')
@@ -32,7 +32,7 @@ exports.run = (client, message, args) => {
             c.react('614759344072032268').then(() => {
             c.react('614653146689437697').then(() => {
             c.react('614407735043424256').then(() => {
-            c.react('614540655888171038').then(() => {
+            c.react('717461934072660080').then(() => {
         })
         })
         })
