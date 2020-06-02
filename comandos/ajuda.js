@@ -14,7 +14,7 @@ exports.run = (client, message, args) => {
         .setTitle(`<a:carregandocdm:612824847831007232> Clique no emoji parar abrir a categoria...`, `** **`)
         .setDescription(`<a:sinocdm:614407332155359244> Comandos de **Anúncio**
 <a:hypecdm:614407332058890241> Comandos de **Utilidade**
-<a:googlecdm:614407332780310539> Comandos de **Status**
+<a:googleuog:717518901990391980> Comandos de **Status**
 <a:staffcdm:614759344072032268> Comandos de **Moderação**
 <:18cdm:614653146689437697> Comandos de **Nsfw**
 <:chatcdm:614407735043424256> **Sobre mim**
