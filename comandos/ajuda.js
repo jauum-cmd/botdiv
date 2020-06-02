@@ -11,13 +11,13 @@ exports.run = (client, message, args) => {
 
     let embed = new Discord.RichEmbed()
         .setAuthor(client.user.username, client.user.avatarURL)
-        .setTitle(`<a:carregandocdm:612824847831007232> Clique no emoji parar abrir a categoria...`, `** **`)
-        .setDescription(`<a:sinocdm:614407332155359244> Comandos de **Anúncio**
-<a:hypecdm:614407332058890241> Comandos de **Utilidade**
+        .setTitle(`<a:carregandouog:717518323843334144> Clique no emoji parar abrir a categoria...`, `** **`)
+        .setDescription(`<a:SinoTKF:717518675607027795> Comandos de **Anúncio**
+<a:y_hype:717523539921469461> Comandos de **Utilidade**
 <a:googleuog:717518901990391980> Comandos de **Status**
-<a:staffcdm:614759344072032268> Comandos de **Moderação**
+<:banuog:717520437759967332> Comandos de **Moderação**
 <:18cdm:614653146689437697> Comandos de **Nsfw**
-<:chatcdm:614407735043424256> **Sobre mim**
+<:flooduog:717520179332120587> **Sobre mim**
 <a:voltaruog:717461934072660080> **Voltar** ao painel
 
 :link: **[Clique aqui para me Adicionar](https://discordapp.com/oauth2/authorize?client_id=${client.user.id}&permissions=2146958847&scope=bot)**`)
@@ -26,12 +26,12 @@ exports.run = (client, message, args) => {
         .setFooter(user + ' • Painel de ajuda', av)
     
     message.channel.send(embed).then((c) => {
-            c.react('614407332155359244').then(() => {
-            c.react('614407332058890241').then(() => {
+            c.react('717518675607027795').then(() => {
+            c.react('717518901990391980').then(() => {
             c.react('614407332780310539').then(() => {
-            c.react('614759344072032268').then(() => {
+            c.react('717520437759967332').then(() => {
             c.react('614653146689437697').then(() => {
-            c.react('614407735043424256').then(() => {
+            c.react('717520179332120587').then(() => {
             c.react('717461934072660080').then(() => {
         })
         })
@@ -42,12 +42,12 @@ exports.run = (client, message, args) => {
         })
         
 
-        let AnúncioFilter = (reaction, user, ) => reaction.emoji.id === '614407332155359244' && user.id === message.author.id;
-        let UtilidadeFilter = (reaction, user, ) => reaction.emoji.id === '614407332058890241' && user.id === message.author.id;
+        let AnúncioFilter = (reaction, user, ) => reaction.emoji.id === '717518675607027795' && user.id === message.author.id;
+        let UtilidadeFilter = (reaction, user, ) => reaction.emoji.id === '717518901990391980' && user.id === message.author.id;
         let StatusFilter = (reaction, user, ) => reaction.emoji.id === '614407332780310539' && user.id === message.author.id;
-        let ModeraçãoFilter = (reaction, user, ) => reaction.emoji.id === '614759344072032268' && user.id === message.author.id;
+        let ModeraçãoFilter = (reaction, user, ) => reaction.emoji.id === '717520437759967332' && user.id === message.author.id;
         let NsfwFilter = (reaction, user, ) => reaction.emoji.id === '614653146689437697' && user.id === message.author.id;
-        let SobreFilter = (reaction, user, ) => reaction.emoji.id === '614407735043424256' && user.id === message.author.id;
+        let SobreFilter = (reaction, user, ) => reaction.emoji.id === '717520179332120587' && user.id === message.author.id;
         let VoltarFilter = (reaction, user, ) => reaction.emoji.id === '717461934072660080' && user.id === message.author.id;
         let Anúncio = c.createReactionCollector(AnúncioFilter, { time: 80000 });
         let Utilidade = c.createReactionCollector(UtilidadeFilter, { time: 80000 });
@@ -60,7 +60,7 @@ exports.run = (client, message, args) => {
 
         Anúncio.on('collect', r2 => { 
            let anuncio = new Discord.RichEmbed()
-                .setTitle("<a:sinocdm:614407332155359244>┆Comandos para Anúncio")
+                .setTitle("<a:SinoTKF:717518675607027795>┆Comandos para Anúncio")
                 .setDescription(`» \`${config.prefix}aviso\` (msg) - Manda um aviso a todos do seu servidor.\n\n` +
                 `» \`${config.prefix}avisoembed\` | titulo | descrição | link de foto ou gif |\n` +
                 `Manda um aviso em embed a todos do seu servidor.\n` +
@@ -91,7 +91,7 @@ exports.run = (client, message, args) => {
         
         Status.on('collect', r2 => { 
             let status = new Discord.RichEmbed()
-                .setTitle("<a:googlecdm:614407332780310539>┆Comandos de Status")
+                .setTitle("<a:googleuog:717518901990391980>┆Comandos de Status")
                 .setDescription(`» \`${config.prefix}sugestão (sugestão)\` - Me manda uma sugestão.\n\n` +
                 `» \`${config.prefix}bug (bug)\` - Reporta um bug no bot.\n\n` +
                 `» \`${config.prefix}ping\` - Mostra o ping do bot.\n\n` +
