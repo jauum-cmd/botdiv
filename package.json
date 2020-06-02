@@ -1,25 +1,19 @@
 {
-  "name": "Nome-do-Seu-Bot-Aqui",
-  "version": "0.0.1",
-  "description": "Descreva seu bot aqui",
+  "name": "camilly",
+  "version": "1.0.0",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
+  "keywords": [],
+  "author": "</Fumante1533>",
+  "license": "ISC",
   "dependencies": {
+    "discord.js": "^12.2.0",
     "express": "^4.17.1",
-    "discord.js": "^12.2.0"
-  },
-  "engines": {
-    "node": "12.x"
-  },
-  "repository": {
-    "url": "https://glitch.com/edit/#!/hello-express"
-  },
-  "license": "MIT",
-  "keywords": [
-    "node",
-    "glitch",
-    "express"
-  ]
+    "moment": "^2.26.0",
+    "quick.db": "^7.1.1",
+    "weather-js": "^2.0.0"
+  }
 }
