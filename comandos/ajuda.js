@@ -75,7 +75,7 @@ exports.run = (client, message, args) => {
 
         Utilidade.on('collect', r2 => { 
             let util = new Discord.RichEmbed()
-                .setTitle("<a:hypecdm:614407332058890241>┆Comandos de Utilidade")
+                .setTitle("<a:y_hype:717523539921469461>┆Comandos de Utilidade")
                 .setDescription(`» \`${config.prefix}responder (id/menção) (msg)\` - Manda uma mensagem no privado de um usuário com o bot.\n\n` +
                 `» \`${config.prefix}say (msg)\` - Manda uma mensagem com o bot.\n\n` +
                 `» \`${config.prefix}cc\` - Cria um convite permanente do servidor.\n\n` +
@@ -97,17 +97,17 @@ exports.run = (client, message, args) => {
                 `» \`${config.prefix}ping\` - Mostra o ping do bot.\n\n` +
                 `» \`${config.prefix}convite\` - Mostra o meu convite.`)
                 .setColor("#ff47ec")
-                .setThumbnail("https://cdn.discordapp.com/emojis/614407332780310539.gif?v=1")
+                .setThumbnail("https://cdn.discordapp.com/emojis/717518901990391980.gif?v=1")
                 .setFooter(user + " • Pág. 3/6", av)
             c.edit(status);
         });
       
         Moderação.on('collect', r2 => { 
             let mod = new Discord.RichEmbed()
-                .setTitle("<a:staffcdm:614759344072032268>┆Comandos de Moderação")
+                .setTitle("<:banuog:717520437759967332>┆Comandos de Moderação")
                 .setDescription(`» \`${config.prefix}allunban\` - Desbane todos os usuários do seu servidor.`)
                 .setColor("#ff47ec")
-                .setThumbnail("https://cdn.discordapp.com/emojis/614759344072032268.gif?v=1")
+                .setThumbnail("https://cdn.discordapp.com/emojis/717520437759967332>.png?v=1")
                 .setFooter(user + " • Pág. 4/6", av)
             c.edit(mod);
         });
@@ -115,7 +115,7 @@ exports.run = (client, message, args) => {
 
         Nsfw.on('collect', r2 => { 
             let nsfw = new Discord.RichEmbed()
-                .setTitle("<:18cdm:614653146689437697>┆Comandos de Nsfw")
+                .setTitle("<:18uog:717519363929931777>┆Comandos de Nsfw")
                 .setDescription(`» \`${config.prefix}nsfw\` - Manda um gif aleatório de Nsfw.\n\n` +
                                 `» \`${config.prefix}4k\` - Foto em 4k aleatória.\n\n` +
                                 `» \`${config.prefix}pussy\` - Foto/gif de uma buceta.\n\n` +
@@ -123,19 +123,19 @@ exports.run = (client, message, args) => {
                                 `» \`${config.prefix}anal\` - Foto com brinquedos anais.\n\n` +
                                 `» \`${config.prefix}hentai\` - Hentai.`)
                 .setColor("#ff47ec")
-                .setThumbnail("https://cdn.discordapp.com/emojis/614653146689437697.png?v=1")
+                .setThumbnail("https://cdn.discordapp.com/emojis/717519363929931777.png?v=1")
                 .setFooter(user + " • Pág. 5/6", av)
             c.edit(nsfw);
         });
 
         Sobre.on('collect', r2 => { 
            let sobre = new Discord.RichEmbed()
-                .setTitle("<:chatcdm:614407735043424256>┆Sobre mim")
+                .setTitle("<:flooduog:717520179332120587>┆Sobre mim")
                 .setDescription(`**Olá, eu sou a  ${client.user.username}, um bot [Brasileiro](https://pt.wikipedia.org/wiki/Brasil) :flag_br: focado em anúncios DM e divulgação criado em [Javascript](https://nodejs.org/pt-br/) <:jscdm:614400268901023754>, atualmente estou hospedo em uma host free a [Glitch](https://glitch.com/) <:glitchcdm:614400605078814731>, mais estou em busca de uma VPS boa.\n\nAtualmente estou em ${client.guilds.size} servidores com um total de ${client.users.size} usuários!**`)
                 .setThumbnail(client.user.avatarURL)
                 .addField('<:7774:593646210187919380> Me adicione em seu servidor:', `**[Clique aqui](https://discordapp.com/oauth2/authorize?client_id=610280094799233025&permissions=2146958847&scope=bot)**`)
                 .setColor("#ff47ec")
-                .setThumbnail("https://cdn.discordapp.com/emojis/614407735043424256.png?v=1")
+                .setThumbnail("https://cdn.discordapp.com/emojis/717520179332120587.png?v=1")
                 .setFooter(user + " • Pág. 6/6", av)
             c.edit(sobre);
         });
