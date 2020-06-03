@@ -161,7 +161,7 @@ let status = [
   { name: `Prazer na cama`, type: 'STREAMING', url: 'https://www.twitch.tv/fumante1533'},
   { name: `Aids pro fumante`, type: 'STREAMING', url: 'https://www.twitch.tv/fumante1533'},
   { name: `Meu prefixo é: ${prefix}`, type: 'STREAMING', url: 'https://www.twitch.tv/fumante1533'},
-  { name: `Toda molhadinha pra você`, type: 'STREAMING', url: 'https://www.twitch.tv/fumante1533'},
+  { name: `Toda molhadinha pra você`, type: 'TOUCHING', url: 'https://www.twitch.tv/fumante1533'},
   { name: `Amor para você`, type: 'STREAMING', url: 'https://www.twitch.tv/fumante1533'},
 ]
 
