@@ -148,7 +148,7 @@ client.on("guildCreate", async guild => {
 
 client.on("ready", () => {
       let logs = client.channels.get('635212425293070376')
-      if(!logs) return console.log("Canal de log's não definido");
+      if (!logs) return console.log("Canal de log's não definido")
       logs.send(`Bot \`${client.user.username}\` foi iniciado, com ${client.users.size} usuários, em ${client.guilds.size} servidores.`);
 });
 
@@ -156,14 +156,11 @@ client.on("ready", () => {
     console.log(`Bot foi iniciado, com ${client.users.size} usuários, em ${client.channels.size} canais, em ${client.guilds.size} servidores.`);
     client.user.setPresence({ game: { name: config.Status, type: 'STREAMING', url: 'https://www.twitch.tv/fumante1533'}});
 
-let status = [
-  { name: `Sexo pra você`, type: 'STREAMING', url: 'https://www.twitch.tv/fumante1533'},
-  { name: `Prazer na cama`, type: 'STREAMING', url: 'https://www.twitch.tv/fumante1533'},
-  { name: `Aids pro fumante`, type: 'STREAMING', url: 'https://www.twitch.tv/fumante1533'},
-  { name: `Meu prefixo é: ${prefix}`, type: 'STREAMING', url: 'https://www.twitch.tv/fumante1533'},
-  { name: `Toda molhadinha pra você`, type: 'STREAMING', url: 'https://www.twitch.tv/fumante1533'},
-  { name: `Amor para você`, type: 'STREAMING', url: 'https://www.twitch.tv/fumante1533'},
-]
+let status = [`Utilize ${config.prefix}help para obter ajuda`,
+      `${client.guilds.cache.size} servidores!`,
+      `${client.channels.cache.size} canais!`,
+      `${client.users.cache.size} usuários!`
+              ]
 
   function st() {
             let rs = status[Math.floor(Math.random() * status.length)];
