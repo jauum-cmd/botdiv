@@ -75,7 +75,7 @@ client.on('message', message => {
 
         .setTitle(`Olá ${message.author.tag} está perdido?`)
         .setDescription(`Se você se encontra com dúvidas do que eu posso fazer dirija-se rapidamente a um chat de comandos e digite: ${prefix}ajuda\n\n` +
-                        `<a:charmander:594967880311767290> Suporte: [Clique aqui](https://discord.gg/2vNYy5t)`)
+                        `<a:charmander:594967880311767290> Suporte: [Clique aqui](https://discord.gg/ASJJGgh)`)
         .setThumbnail(client.user.avatarURL)
         .setColor("#ff47ec")
 
