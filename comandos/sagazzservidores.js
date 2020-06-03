@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 
 exports.run = async (client, message, args) => {
 
-    if (message.author.id !== '623545526561931274' && message.author.id !== '591876027911766017' && message.author.id !== '484390652944187423') return message.reply("<:7775:593645935280783431> | você não possui permissão para usar esse comando.")
+    if (message.author.id !== '623545526561931274' && message.author.id !== '591876027911766017' && message.author.id !== '484390652944187423') return message.reply("<a:Alerta:716558497776402504> | você não possui permissão para usar esse comando.")
 
 message.delete();
         
