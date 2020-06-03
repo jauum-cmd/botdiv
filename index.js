@@ -163,7 +163,6 @@ let status = [
   { name: `Meu prefixo é: ${prefix}`, type: 'STREAMING', url: 'https://www.twitch.tv/fumante1533'},
   { name: `Gabrielle Aplin - Home`, type: 'TOUCHING', url: 'https://www.twitch.tv/fumante1533'},
   { name: `Amor para você`, type: 'STREAMING', url: 'https://www.twitch.tv/fumante1533'},
-  { name: `${client.users.cache.size} usuários!`, type: ''},
 ]
 
   function st() {
