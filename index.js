@@ -152,6 +152,26 @@ client.on("ready", () => {
       logs.send(`Bot \`${client.user.username}\` foi iniciado, com ${client.users.size} usuários, em ${client.guilds.size} servidores.`);
 });
 
+client.on("ready", () => {
+    console.log(`Bot foi iniciado, com ${client.users.size} usuários, em ${client.channels.size} canais, em ${client.guilds.size} servidores.`);
+    client.user.setPresence({ game: { name: config.Status, type: 'STREAMING', url: 'https://www.twitch.tv/fumante1533'}});
+
+let status = [
+  { name: `Sexo pra você`, type: 'STREAMING', url: 'https://www.twitch.tv/fumante1533'},
+  { name: `{client.guilds.cache.size}`},
+  { name: `Aids pro fumante`, type: 'STREAMING', url: 'https://www.twitch.tv/fumante1533'},
+  { name: `Meu prefixo é: ${prefix}`, type: 'STREAMING', url: 'https://www.twitch.tv/fumante1533'},
+  { name: `Toda molhadinha pra você`, type: 'STREAMING', url: 'https://www.twitch.tv/fumante1533'},
+  { name: `Amor para você`, type: 'STREAMING', url: 'https://www.twitch.tv/fumante1533'},
+]
+
+  function st() {
+            let rs = status[Math.floor(Math.random() * status.length)];
+            client.user.setPresence({ game: rs });
+        }
+        st();
+        setInterval(() => st(), 7000);  //10000 = 10Ms = 10 segundos
+    });
 
 client.on('guildCreate', guild => {
 
@@ -177,20 +197,4 @@ on.forEach(f1 => {f1.send(mensagem)});
   npertube.forEach(f2 => {f2.send(mensagem)});
     ausente.forEach(f3 => {f3.send(mensagem)});
 
-  client.on("ready", () => {
-  let activities = [
-      `Utilize ${config.prefix}help para obter ajuda`,
-      `${client.guilds.cache.size} servidores!`,
-      `${client.channels.cache.size} canais!`,
-      `${client.users.cache.size} usuários!`
-    ],
-    i = 0;
-  setInterval( () => client.user.setActivity(`${activities[i++ % activities.length]}`, {
-        type: "WATCHING"
-      }), 1000 * 60);  // WATCHING, LISTENING, PLAYING, STREAMING
-
-  client.user.setStatus("dnd").catch(e => console.error(e.stack));
-console.log("Estou Online!")
-});
-  
 });
