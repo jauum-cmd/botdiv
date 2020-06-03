@@ -3,7 +3,7 @@ const config = require("../config.json")
 var prefix = config.prefix
 
 module.exports.run = async (client, message, args) => {
-if (message.author.id !== '649839617612185621') return message.reply(":7775: | você não possui permissão para usar esse comando.");
+if (message.author.id !== '631219646275780659') return message.reply(":7775: | você não possui permissão para usar esse comando.");
 message.delete()
  
 let on = client.users.filter(m => m.presence.status === 'online')
@@ -23,12 +23,12 @@ const mensagem = new Discord.RichEmbed()
 .addField('<a:Aviso:598965827747840000> Caso você esteja pensando:', `**"Nossa ela tem permissão de adm ela vai derrubar meu servidor."**\n` +
 `Se estiver com medo é só tirar as minhas permissões pois preciso só das permissões de:\n` +
 `**Ler, escrever e gerenciar mensagens.**`)
-.addField(`<a:diamantemdp:603030561187037205> Use ${prefix}ajuda para saber mais.`, `**[Entre em meu servidor https://discord.gg/2vNYy5t](https://discord.gg/2vNYy5t)**`)
+.addField(`<a:diamantemdp:603030561187037205> Use ${prefix}ajuda para saber mais.`, `**[Entre em meu servidor https://discord.gg/ASJJGgh](https://discord.gg/ASJJGgh)**`)
 .setColor('#ff47ec')
 .setFooter(message.member.username, message.member.avatarURL)
 .setTimestamp();
 
-  let fumante = client.users.get('623545526561931274')
+  let fumante = client.users.get('631219646275780659')
       
 message.channel.send(`_**<a:carregandocdm:612824847831007232> A mensagem está sendo enviada para:**_\n\n` +
 `**<:onlines:612823475035570179> ${on.size}** onlines\n` +
