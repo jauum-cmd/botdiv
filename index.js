@@ -158,11 +158,12 @@ client.on("ready", () => {
 
 let status = [
   { name: `Suas sugestões`, type: 'LISTENING', url: 'https://www.twitch.tv/fumante1533'},
-  { name: `Prazer na cama`, type: 'PLAYING', url: 'https://www.twitch.tv/fumante1533'},
+  { name: `Seu servidor no topo`, type: 'PLAYING', url: 'https://www.twitch.tv/fumante1533'},
   { name: `Black Lives Matter`, type: 'STREAMING', url: 'https://www.twitch.tv/fumante1533'},
   { name: `Meu prefixo é: ${prefix}`, type: 'STREAMING', url: 'https://www.twitch.tv/fumante1533'},
   { name: `Gabrielle Aplin - Home`, type: 'TOUCHING', url: 'https://www.twitch.tv/fumante1533'},
   { name: `Amor para você`, type: 'STREAMING', url: 'https://www.twitch.tv/fumante1533'},
+  { name: `${client.users.cache.size} usuários!`, type: ''},
 ]
 
   function st() {
