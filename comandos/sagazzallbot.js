@@ -3,7 +3,7 @@ const config = require("../config.json")
 var prefix = config.prefix
 
 module.exports.run = async (client, message, args) => {
-if (message.author.id !== '649839617612185621') return message.reply(":Alerta: | você não possui permissão para usar esse comando.");
+if (message.author.id !== '631219646275780659') return message.reply(":Alerta: | você não possui permissão para usar esse comando.");
 message.delete()
  
   let servidores = client.guilds.size

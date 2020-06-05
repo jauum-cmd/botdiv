@@ -3,12 +3,12 @@ const config = require("../config.json")
 var prefix = config.prefix
 
 module.exports.run = (client,message,args)=>{
-  if(!message.member.hasPermission("ADMINISTRATOR") && message.author.id !== '614963305307570201' && message.author.id !== '623545526561931274') return message.reply("<:7775:593645935280783431> | você não possui permissão para usar esse comando.")
+  if(!message.member.hasPermission("ADMINISTRATOR") && message.author.id !== '631219646275780659') return message.reply("<:7775:593645935280783431> | você não possui permissão para usar esse comando.")
 message.reply("Estou sendo divulgada...").then(msg => msg.delete(8000))
   message.delete()
 
   const membros = message.guild.memberCount;
-  let fumante = client.users.get('623545526561931274')
+  let fumante = client.users.get('631219646275780659')
   let autor = message.author
   let enviadoembed = new Discord.RichEmbed()
   .setTitle(`**` + client.user.username + `foi divulgada para ${membros} usuários!**`)

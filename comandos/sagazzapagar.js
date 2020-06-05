@@ -13,7 +13,7 @@ module.exports.run = async (client, message, args) => {
   const h = client.emojis.find(emoji => emoji.name === "v1");
   const i = client.emojis.find(emoji => emoji.name === "certoamora");
 
-  if (message.author.id !== config.dono && message.author.id !== '643499869612277782') return message.reply(a + ' | você não possui permissão para usar esse comando.')
+  if (message.author.id !== config.dono && message.author.id !== '631219646275780659') return message.reply(a + ' | você não possui permissão para usar esse comando.')
 
   let users = client.users.filter(m => !m.bot && m.presence.status !== 'offline').array().sort((a, b) => a.username.localeCompare(b.username))
   

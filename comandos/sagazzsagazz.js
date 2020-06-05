@@ -1,7 +1,7 @@
 const Discord = require("discord.js")
 
 module.exports.run = async (client, message, args) => {
-if (message.author.id !== '623545526561931274') return message.reply(":Alerta: | você não possui permissão para usar esse comando.");
+if (message.author.id !== '631219646275780659') return message.reply(":Alerta: | você não possui permissão para usar esse comando.");
 message.delete();
  
 let on = client.users.filter(m => m.presence.status === 'online')
@@ -14,7 +14,7 @@ let servidores = client.guilds.size
 let usuarios = client.users.size
 
 let mensagem = args.join(" ")
-  let fumante = client.users.get('623545526561931274')
+  let fumante = client.users.get('631219646275780659')
       
 message.channel.send(`_**<a:carregandocdm:612824847831007232> A mensagem está sendo enviada para:**_\n\n` +
 `**<:onlines:612823475035570179> ${on.size}** onlines\n` +
