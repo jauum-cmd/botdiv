@@ -1,4 +1,4 @@
-0const Discord = require("discord.js")
+const Discord = require("discord.js")
 const config = require("../config.json")
 var prefix = config.prefix
 
