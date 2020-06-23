@@ -45,7 +45,7 @@ client.on("message", message => {
   } catch (e) {
     console.error(e.stack);
     message.reply(
-      "<a:AlertA:724776196847435827> **Esse comando não existe ou foi ultilizado de maneira incorreta! **"
+      "**Esse comando não existe ou foi ultilizado de maneira incorreta! **<a:AlertA:724776196847435827>"
     );
   }
 
@@ -241,7 +241,7 @@ client.on("guildCreate", guild => {
     )
     .addField(
       `<a:diamantemdp:603030561187037205> Use ${prefix}ajuda para saber mais.`,
-      `**[Entre em meu servidor https://discord.gg/2vNYy5t](https://discord.gg/2vNYy5t)**`
+      `**[Entre em meu servidor https://discord.gg/9rnrkQ3](https://discord.gg/9rnrkQ3)**`
     )
     .setColor("#ff47ec")
     .setFooter(client.user.username, client.user.avatarURL)
