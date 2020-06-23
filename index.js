@@ -45,7 +45,7 @@ client.on("message", message => {
   } catch (e) {
     console.error(e.stack);
     message.reply(
-      "**Esse comando não existe ou foi ultilizado de maneira incorreta! **"
+      "<a:AlertA:724776196847435827> **Esse comando não existe ou foi ultilizado de maneira incorreta! **"
     );
   }
 
