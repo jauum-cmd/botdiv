@@ -57,7 +57,7 @@ client.on("message", message => {
 
     message.delete(1000);
     message.reply(
-      "**Você não pode enviar convites aki nesse servidor, o dono foi avisado!**"
+      "**Você não pode enviar convites de outros servidores aqui nesse servidor, o dono foi avisado!**"
     );
 
     let embed = new Discord.RichEmbed()
