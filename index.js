@@ -183,32 +183,32 @@ client.on("ready", () => {
     {
       name: `Suas sugestões`,
       type: "LISTENING",
-      url: "https://www.twitch.tv/fumante1533"
+      url: "https://www.twitch.tv/jaumfofozap"
     },
     {
       name: `Seu servidor no topo`,
       type: "PLAYING",
-      url: "https://www.twitch.tv/fumante1533"
+      url: "https://www.twitch.tv/jaumfofozap"
     },
     {
       name: `Black Lives Matter`,
       type: "STREAMING",
-      url: "https://www.twitch.tv/fumante1533"
+      url: "https://www.twitch.tv/jaumfofozap"
     },
     {
       name: `Meu prefixo é: ${prefix}`,
       type: "STREAMING",
-      url: "https://www.twitch.tv/fumante1533"
+      url: "https://www.twitch.tv/jaumfofozap"
     },
     {
       name: `Gabrielle Aplin - Home`,
       type: "TOUCHING",
-      url: "https://www.twitch.tv/fumante1533"
+      url: "https://www.twitch.tv/jaumfofozap"
     },
     {
       name: `Amor para você`,
       type: "STREAMING",
-      url: "https://www.twitch.tv/fumante1533"
+      url: "https://www.twitch.tv/jaumfofozap"
     }
   ];
 
